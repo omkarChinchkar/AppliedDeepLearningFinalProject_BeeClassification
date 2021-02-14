@@ -22,19 +22,19 @@ Second convolutional block has 256 filters with kernel size 3, padding as "same"
 Third convolutional block has 516 filters with kernel size 3, padding as "same" and "relu" activation funcion.
 maxPooling is done after each convolutional block.
 
-## Classifier Head:
+### Classifier Head:
 
 Dense 6 units with relu activation function and 1 unit with sigmoid activation funtion for bee classification.
 
-## Optimizer: 
+### Optimizer: 
 
 Adam with 0.1 epsilon
 
-## Loss:
+### Loss:
 
 binary_crossentropy
 
-## Metric:
+### Metric:
 
 binary_accuracy
 
