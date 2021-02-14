@@ -41,19 +41,28 @@ binary_accuracy
 
 ## VGG19 model:
 
-### Weights:
-ImageNet
+Keras VGG19 model weight for classification.
 
 ### Transfer Learning:
+
+ImageNet weights are used for transfer learning approach. Input shape is (224,224,3), "softmax" classifier activation.
+
+### Optimizer:
+
+Adam with 0.0001 learning rate.
+
+### Loss:
+
+BinaryCrossentropy
 
 
 # Results
 
 ### CNN model Results:
-0.75 training and testing accuracy.
+0.75 training and testing accuracy after 50 epochs.
 
 ### VGG19 model Results:
-0.92 validation accuracy and 0.91 testing accuracy.
+0.92 validation accuracy and 0.91 testing accuracy after 50 epochs.
 
 # Dependancies
 !pip install tensorflow
