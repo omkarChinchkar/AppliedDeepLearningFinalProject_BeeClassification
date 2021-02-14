@@ -38,6 +38,13 @@ binary_crossentropy
 
 binary_accuracy
 
+# Results
+
+### CNN model Results:
+0.75 training and testing accuracy.
+
+### VGG19 model Results:
+0.92 validation accuracy and 0.91 testing accuracy.
 
 # Dependancies
 !pip install tensorflow
