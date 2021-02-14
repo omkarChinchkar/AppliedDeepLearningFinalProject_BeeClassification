@@ -38,6 +38,15 @@ binary_crossentropy
 
 binary_accuracy
 
+
+## VGG19 model:
+
+### Weights:
+ImageNet
+
+### Transfer Learning:
+
+
 # Results
 
 ### CNN model Results:
