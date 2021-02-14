@@ -15,7 +15,7 @@ Both models were trained on Bee or wasp kaggle dataset. https://www.kaggle.com/j
 
 keras sequential model design was used in this task. 3 convolutional blocks and classifier head are present in the model. 
 
-## Convolutional Blocks:
+### Convolutional Blocks:
 
 First convolutional block has 128 filters with kernel size 5, padding is set to "same", activation function is "relu", input shape is (256,256,3).
 Second convolutional block has 256 filters with kernel size 3, padding as "same" and "relu" activation function.
