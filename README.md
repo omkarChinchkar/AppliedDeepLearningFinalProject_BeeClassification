@@ -11,33 +11,30 @@ Both models were trained on Bee or wasp kaggle dataset. https://www.kaggle.com/j
 
 # Model discription
 
-CNN model:
+## CNN model:
 
 keras sequential model design was used in this task. 3 convolutional blocks and classifier head are present in the model. 
 
-Convolutional Blocks:
+## Convolutional Blocks:
 
 First convolutional block has 128 filters with kernel size 5, padding is set to "same", activation function is "relu", input shape is (256,256,3).
 Second convolutional block has 256 filters with kernel size 3, padding as "same" and "relu" activation function.
 Third convolutional block has 516 filters with kernel size 3, padding as "same" and "relu" activation funcion.
 maxPooling is done after each convolutional block.
 
-Classifier Head:
+## Classifier Head:
 
 Dense 6 units with relu activation function and 1 unit with sigmoid activation funtion for bee classification.
 
-Optimizer: 
+## Optimizer: 
 
 Adam with 0.1 epsilon
 
-Loss:
+## Loss:
 
 binary_crossentropy
 
-Metric:
+## Metric:
 
 binary_accuracy
-
-
-
 
