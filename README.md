@@ -25,3 +25,19 @@ maxPooling is done after each convolutional block.
 Classifier Head:
 
 Dense 6 units with relu activation function and 1 unit with sigmoid activation funtion for bee classification.
+
+Optimizer: 
+
+Adam with 0.1 epsilon
+
+Loss:
+
+binary_crossentropy
+
+Metric:
+
+binary_accuracy
+
+
+
+
