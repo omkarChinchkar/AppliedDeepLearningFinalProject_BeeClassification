@@ -38,3 +38,13 @@ binary_crossentropy
 
 binary_accuracy
 
+
+# Dependancies
+!pip install tensorflow
+
+!pip install pandas
+
+!pip install matplotlib
+
+!pip install seaborn
+
