@@ -64,6 +64,9 @@ BinaryCrossentropy
 ### VGG19 model Results:
 0.89 validation accuracy and 0.90 testing accuracy after 50 epochs.
 
+### Result interpretation:
+In this task two different CNN based models were trained and tested on bee vs wasp dataset. Results obtained from the task shows that transfer learning is better approach if the task and model we are using are trained for same purpose. Second point to note is, the time taken for CNN based model is much higher than transfer learning approach. If the requirment of specific task is to save training time or limit training time then transfer learning appraoch can be selected. In other cases new CNN based model from scratch can be implemented to solve classification task.
+
 # Dependancies
 !pip install tensorflow
 
