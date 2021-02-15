@@ -73,3 +73,5 @@ BinaryCrossentropy
 
 !pip install seaborn
 
+!pip install numpy
+
