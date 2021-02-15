@@ -62,7 +62,7 @@ BinaryCrossentropy
 0.75 training and testing accuracy after 50 epochs.
 
 ### VGG19 model Results:
-0.9250 validation accuracy and 0.9285 testing accuracy after 50 epochs.
+0.89 validation accuracy and 0.90 testing accuracy after 50 epochs.
 
 # Dependancies
 !pip install tensorflow
